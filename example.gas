@@ -1,0 +1,23 @@
+varNum = 12;
+a = 190;
+b = 240;
+c = 69;
+varColor = rgb(a, b, c);
+
+@mixinName {
+    border: 10px solid red;
+    background: !varColor;
+}
+
+.class {
+    color: black;
+}
+
+#id {
+    padding: !varNum px;
+}
+
+div {
+    @mixinName
+    border-radius: 10%;
+}

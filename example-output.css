@@ -1,0 +1,13 @@
+.class {
+    color: black;
+}
+
+#id {
+    padding: 12 px;
+}
+
+div {
+    border: 10px solid red;
+    background: rgb(190, 240, 69);
+    border-radius: 10%;
+}
