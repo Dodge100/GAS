@@ -1,4 +1,4 @@
-varNum = 12;
+varNum = 12px;
 a = 190;
 b = 240;
 c = 69;
@@ -14,10 +14,14 @@ varColor = rgb(a, b, c);
 }
 
 #id {
-    padding: !varNum px;
+    padding: !varNum;
 }
 
 div {
     @mixinName
     border-radius: 10%;
+}
+
+.dynamicClass[param1] {
+    background: linear-gradient(rgb(a, varNum, param1), yellow);
 }

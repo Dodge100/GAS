@@ -1,7 +1,8 @@
-# CSS supremely sucks
-(i made css 2.0!)
+# Greatly _ Styling
+(i made my opinionated version of css)
 
 features
 - [x] mixins
 - [x] better variables
 - [ ] nested classes
+- [ ] parameters for classes
