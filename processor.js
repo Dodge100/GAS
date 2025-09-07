@@ -2,6 +2,7 @@ const fs = require('fs');
 
 const input = fs.readFileSync('example.gas', 'utf8')
 const html = fs.readFileSync('example.html', 'utf8')
+const output = 'example-output.css'
 
 //vars
 const varRegex = /^(\w+)\s*=\s*(.+?);$/gm;
@@ -89,4 +90,4 @@ console.log(dynamicCSS);
 
 code = code.trimStart() + "\n\n" + dynamicCSS; //remove newlines at start of code
 
-fs.writeFileSync('example-output.css', code);
+fs.writeFileSync(output, code);
