@@ -1,0 +1,20 @@
+{
+  "name": "greatly-accessible-styling",
+  "version": "1.0.0",
+  "description": "i made my opinionated version of css",
+  "main": "lib/index.js",
+  "bin": {
+    "gas": "bin/processor.js"
+  },
+  "keywords": [
+    "css",
+    "preproccessor",
+    "tailwindcss",
+    "gas"
+  ],
+  "author": "Dodge100",
+  "license": "ISC",
+  "dependencies": {
+    "greatly-accessible-styling": "^1.0.0"
+  }
+}

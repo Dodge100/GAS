@@ -1,14 +1,14 @@
-# Greatly _ Styling
-(i made my opinionated version of css)
+# Greatly Accessible Styling
+(css that's actually gas)
 
 features
 - [x] mixins
 - [x] better variables
 - [ ] nested classes
-- [ ] parameters for classes (attempted but doesn't work)
+- [x] parameters for classes
+
+i made this since i actually dislike tailwind. i think that regular css is really great but there are some features that it's lacking to become a fully fleshed out language that feels fun and nice to use. preproccesors like SCSS already exist but they 
 
 how to use
-1. clone this repo
-2. copy the processor.js file
-3. replace the file names with the ones you want
-4. use
+1. `npm install greatly-accessible-styling`
+2. `gas <input.gas> <input.html> -o <output.css>`
