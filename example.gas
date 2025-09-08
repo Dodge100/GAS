@@ -23,5 +23,5 @@ div {
 }
 
 .dynamicClass[param1] {
-    background: linear-gradient(rgb(a, varNum, param1), yellow);
+    padding: param1 px;
 }

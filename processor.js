@@ -62,7 +62,7 @@ html.replace(usedClassesRegex, (_, classes) => {
 
 let dynamicCSS = '';
 for (const clas of usedClasses) {
-    const match = /^([^[]+)-\[(.+?)\]$/.exec(clas);
+    const match = /^([^[]+)-?\[(.+?)\]$/.exec(clas);
     if (match) {
         const [_, baseName, values] = match;
         if (templates[baseName]) {
